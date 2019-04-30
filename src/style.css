@@ -1,0 +1,18 @@
+.grid {
+    width: 460px;
+    margin: auto;
+}
+.grid-item { 
+    width: 150px; 
+    height: 150px;
+    background-color: #fff7008c; 
+  }
+  .grid-item--width2 { width: 460px; }
+  
+  .packery-drop-placeholder {
+    outline: 3px dashed #444;
+    outline-offset: -6px;
+    /* transition position changing */
+    -webkit-transition: -webkit-transform 0.2s;
+            transition: transform 0.2s;
+  }
