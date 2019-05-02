@@ -6,13 +6,15 @@ html
     script(src='https://code.jquery.com/jquery-3.4.0.min.js')
     script(src='https://unpkg.com/packery@2.1/dist/packery.pkgd.min.js')
     script(src='https://unpkg.com/draggabilly@2/dist/draggabilly.pkgd.min.js')
+    //script(src='js/dropzone.js')
 
     style
-        include style.css
+        include css/style.css
+        include css/dropzone.css
 
     body
         div(class="grid")
-            - for(var i=0; i<#{numImages}; i++)
+            - for(var i = 0; i < 9; i++)
                 div(class="grid-item")
         script(src='js/config.js')
 
